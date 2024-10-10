@@ -1,0 +1,28 @@
+﻿  Pong.cpp
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(396,15): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(397,15): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(398,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(398,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(400,14): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(401,14): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(403,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(403,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(406,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\PongGame\Pong.cpp(406,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PongGame.vcxproj -> C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\PongGame\Debug\PongGame.exe
