@@ -1,0 +1,26 @@
+﻿  Timber.cpp
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(110,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(721,61): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(727,61): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(797,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(801,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(829,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(833,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(834,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(844,14): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(865,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(865,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(881,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(885,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(915,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(919,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(947,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(951,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(978,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(982,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\TimberGame\code\Timber.cpp(1019,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  TimberGame.vcxproj -> C:\Users\zacht\OneDrive - TUS MM\Year 2 First Semester\2D Game Dev\TimberGame\TimberGame\Debug\TimberGame.exe
