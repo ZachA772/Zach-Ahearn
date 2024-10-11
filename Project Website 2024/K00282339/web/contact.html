@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<!--Code to import Irish Grover Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+	<!--Code to import Itim Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="CSS.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <script src="JavaScript.js"></script>
+    <title>Zombies INC</title>
+</head>
+<body>
+	<div id="container">
+	<header>
+		<img src="images/Logo.png" id="logo">
+		<div id="heading">
+		<h1>Zombies Incorporated</h1>
+		</div>
+		<h2>Send us feedback or whatever's on your mind!</h2>
+		</div>
+
+
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" >Home</a>
+			<a href="location.html">Location</a>
+			<a href="contact.html" class="active">Contact</a>
+			<a href="useful-links.html">Useful Links</a>
+			<a href="speedruns.html">Speedruns</a>
+			<a href="highrounds.html">High Rounds</a>
+			<a href="upcoming.html">Upcoming</a>
+		  </div>
+
+          <div id="contact-flex">
+            <form id="formDetails" action="contact" method="POST">
+                <input type="hidden" id="action" name="action">
+            <fieldset><legend>Please Enter Details In Boxes Below</legend>
+            
+
+
+            <p><label for="name" >Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="text" name="name" id="name"></p>
+        
+            <p><label for="mobile" >Phone Number:</label>
+            <input type="tel" name="mobile" id="mobile"></p>
+        
+            <p><label for="email1" >Email Address:</label>
+            <input type="email" name="email1" id="email1"></p>
+        
+            <p><label for="email2" >Confirm Email:</label>
+            <input type="email" name="email2" id="email2"></p>
+
+            <fieldset><legend class="inner">Are you a member of the Zombies Community? (Do you play zombies?)</legend>
+            <select name="member" id="member">
+                <option value="Yes">Yes</option>
+                <option value="No" selected>No</option>
+                </select>
+            </fieldset>
+
+            <fieldset><legend class="inner">Gender</legend>
+            <p><input type="radio" name="gender" value="male" checked><label>Male</label></p>
+            <p><input type="radio" name="gender" value="female"><label>Female</label></p>
+            <p><input type="radio" name="gender" value="other"><label>Other</label></p>
+            <p><input type="radio" name="gender" value="not day"><label>Rather Not Say</label></p>
+            </fieldset>
+            
+            <p><fieldset><legend class="inner">What Do You Like About Zombies?</legend></p>
+            <select name="zoms" id="zoms">
+                <option value="EE">Easter Eggs</option>
+                <option value="HR" selected>High Rounds</option>
+                <option value="Community">Community</option>
+                <option value="Challenge">Challenging</option>
+                <option value="Casual">Casual</option>
+                <option value="Loop">Gameplay Loop</option>
+                <option value="Speedruns">Speedruns</option>
+                <option value="Story">Story Aspect</option>
+            </select>
+            </fieldset>
+            <br>
+            <label for="age">Age:</label>
+            <select name="age" id="age">
+                <option value="-18">Below 18 </option>
+                <option value="18-25" selected>18 - 25 </option>
+                <option value="25-30">25 - 30 </option>
+                <option value="30+">30+ </option>
+            
+            </select>
+
+            <p><textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter your comment here!"></textarea></p>
+
+            <input type="reset" value="Reset" id="reset">
+             <button type="button" onclick="submitForm('submit')">Submit Form</button>
+            
+             
+             
+             
+             <p><label>Enter Form Number and refill form to update.</label></p>
+            <input type="text" name="formNumber" id="formNumber" required></p>
+             <p><button type="button" onclick="submitForm('update')">Update Details</button></p>
+            </fieldset>
+            </form>
+              
+              <form id="viewDeleteForm" action="contact" method="POST">
+                  <input type="hidden" id="fdAction" name="action">
+
+                  <fieldset>
+                      <h3>Updating, Viewing, and Deleting Forms:</h3>
+                      <br>
+                       <fieldset>
+                           <legend>
+                               
+                      <label for="formNumber">Only enter Form Number to view or delete form.</label>
+                      </legend>
+                    <input type="text" id="viewDeleteFormNumber" name="formNumber" required>
+                    
+                    <p><button type="button" onclick="changeForm('view')">View Details</button></p>
+                    <button type="button" onclick="changeForm('delete')">Delete Details</button>
+                  </fieldset>
+              </form>
+            
+
+            <img src="images/contact_image.png" id="contactImg">
+
+</fieldset>
+            
+        
+        </div>
+    
+     <script>
+        function submitForm(action) {
+            document.getElementById('action').value = action;
+            document.getElementById('formDetails').submit();
+        }
+
+        function changeForm(action) {
+            document.getElementById('fdAction').value = action;
+            document.getElementById('viewDeleteForm').submit();
+        }
+        </script>
+        <div id="copyright">
+            Copyright © 2023 Zombies Incorporated Fan Site. All Right Reserved. We do not represent Call Of Duty game or Activision
+            </div>
+            </body>
+            </html>

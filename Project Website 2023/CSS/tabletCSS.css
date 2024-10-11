@@ -1,0 +1,98 @@
+@media(max-width: 768px){
+
+body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
+  }
+  
+  #container {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  #header-image {
+    width: 600px;
+    height: 300px;
+    padding: 2em;
+  }
+  
+  .topnav {
+    font-size: 1em;
+    padding: 0 1em;
+  }
+  
+  .about {
+    font-size: 1rem;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+    #logo {
+      float: none;
+      margin: auto;
+      display: block;
+    }
+    #heading {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .topnav a {
+      display: block;
+      padding: 0.5em;
+    }
+
+    /*Gallery*/
+    #mainImg{
+      max-width: 650px;
+    }
+
+    /*Contact*/
+    #contactImg{
+      display: none;
+    }
+    form{
+      padding-left: 3.5em;
+    }
+
+    /*USeful-Links*/
+    #linksImg{
+      width: 600px;
+      height: 337px;
+
+    }
+
+    /*Upcoming*/
+    #tranzit{
+      width: 600px;
+      height: 337px;
+    }
+  
+    #dieRise{
+      width: 600px;
+      height: 337px;
+    }
+  
+    #buried{
+      width: 600px;
+      height: 337px;
+    }
+    .upcomingText{
+      padding-left: 4em;
+      padding-right: 4em;
+    }
+  
+  
+
+
+}

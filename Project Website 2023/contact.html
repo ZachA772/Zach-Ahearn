@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<!--Code to import Irish Grover Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+	<!--Code to import Itim Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="CSS/CSS.css" rel="stylesheet">
+    <link href="CSS/tabletCSS.css" rel="stylesheet" media="(max-width: 768px)">
+	<link href="CSS/mobileCSS.css" rel="stylesheet" media="(max-width: 480px)">
+	<link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <script src="JavaScript.js"></script>
+    <title>Zombies INC</title>
+</head>
+<body>
+	<div id="container">
+	<header>
+		<img src="images/Logo.png" id="logo">
+		<div id="heading">
+		<h1>Zombies Incorporated</h1>
+		</div>
+		<h2>Send us feedback or whatever's on your mind!</h2>
+		</div>
+
+
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" >Home</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="contact.html" class="active">Contact</a>
+			<a href="useful-links.html">Useful Links</a>
+			<a href="speedruns.html">Speedruns</a>
+			<a href="highrounds.html">High Rounds</a>
+			<a href="upcoming.html">Upcoming</a>
+		  </div>
+
+          <div id="contact-flex">
+            <form id="formDetails" method="post" action="http://litstudentprojects.net/rwd-a2-response.php">
+            <fieldset><legend>Please Enter Details In Boxes Below</legend>
+            
+
+
+            <p><label for="name" >Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="text" name="name" id="name"><span id="nameErr" class="error">*</span></p>
+
+            <p><label for="address" >Address:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type="text" name="address" id="address">
+        
+            <p><label for="mobile" >Phone Number:</label>
+            <input type="mobile" name="mobile" id="mobile"><span id="mobileErr" class="error">*</span></p>
+        
+            <p><label for="email1" >Email Address:</label>
+            <input type="email" name="email1" id="email1"><span id="email1Err" class="error">*</span></p>
+        
+            <p><label for="email2" >Confirm Email:</label>
+            <input type="email" name="email2" id="email2"><spanw id="email2Err" class="error">*</span></p>
+
+            <fieldset><legend class="inner">Are you a member of the Zombies Community? (Do you play zombies?)</legend>
+            <p><input type="radio" id="member" name="member" value="yes" checked><label>Yes</label></p>
+            <p><input type="radio" id="member" name="member" value="no"><label>No</label></p>
+            </fieldset>
+
+            <fieldset><legend class="inner">Gender</legend>
+            <p><input type="radio" name="gender" value="male" checked><label>Male</label></p>
+            <p><input type="radio" name="gender" value="female"><label>Female</label></p>
+            <p><input type="radio" name="gender" value="other"><label>Other</label></p>
+            <p><input type="radio" name="gender" value="not"><label>Rather Not Answer</label></p>
+            </fieldset>
+            
+            <p><fieldset><legend class="inner">What Do You Like About Zombies?</legend></p>
+            <p><input type="checkbox" name="zoms" value="EE"><label>Easter Eggs</label></p>
+            <p><input type="checkbox" name="zoms" value="HR"><label>High Rounds</label></p>
+            <p><input type="checkbox" name="zoms" value="Players"><label>Meeting Other Zombie PLayers</label></p>
+            <p><input type="checkbox" name="zoms" value="Challenge"><label>Challenging Gameplay</label></p>
+            <p><input type="checkbox" name="zoms" value="Casual" checked><label>Casual Gameplay</label></p>
+            <p><input type="checkbox" name="zoms" value="Loop"><label>Looping Gameplay</label></p>
+            <p><input type="checkbox" name="zoms" value="Speedruns"><label>Speedruns</label></p>  
+            <p><input type="checkbox" name="zoms" value="Story"><label>Story Aspect</label></p>  
+            </fieldset>
+            <br>
+            <label for="age">Age:</label>
+            <select name="age" id="age">
+                <option value="1">Below 18 </option>
+                <option value="2" selected>18 - 25 </option>
+                <option value="3">25 - 30 </option>
+                <option value="4">30+ </option>
+            
+            </select>
+
+            <p><textarea id="query" name="query" rows="4" cols="50" placeholder="Enter your comment here!"></textarea><span id="queryErr" class="error"></span></p>
+
+            <input type="reset" value="Reset" id="reset">
+            <input type="submit" value="Send Details">
+            
+            </fieldset>
+            </form>
+            <script>
+                document.querySelector('#formDetails').addEventListener('submit', processForm)
+            </script>
+
+            <img src="images/contact_image.png" id="contactImg">
+
+            
+            
+        
+        </div>
+        <div id="copyright">
+            Copyright © 2023 Zombies Incorporated Fan Site. All Right Reserved. We do not represent Call Of Duty game or Activision
+            </div>
+            </body>
+            </html>

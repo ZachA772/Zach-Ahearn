@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<!--Code to import Irish Grover Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+	<!--Code to import Itim Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="CSS.css" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <title>Zombies INC</title>
+</head>
+<body>
+	<div id="container">
+	<header>
+		<img src="images/Logo.png" id="logo">
+		<div id="heading">
+		<h1>Zombies Incorporated</h1>
+		</div>
+		<h2>The Highest Rounds In The Fastest Times</h2>
+		</div>
+
+
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" >Home</a>
+			<a href="location.html">Location</a>
+			<a href="contact.html">Contact</a>
+			<a href="useful-links.html">Useful Links</a>
+			<a href="speedruns.html">Speedruns</a>
+			<a href="highrounds.html" class="active">High Rounds</a>
+			<a href="upcoming.html">Upcoming</a>
+		  </div>
+	</header>
+	<main>
+        <form id="highroundForm" action="highrounds" method="POST">
+                    <input type="hidden" id="action" name="action">
+		<fieldset><legend>Please Enter Details In Boxes Below</legend>
+            
+
+
+                    <label for="map">Map:</label>
+                    <select name="map" id="map">
+                <option value="Origins (BO2)">Origins (BO2)</option>
+                <option value="MOTD">MOTD</option>
+                <option value="SOE">SOE</option>
+                <option value="The Giant">The Giant</option>
+                <option value="DE">DE</option>
+                <option value="GK">GK</option>
+                <option value="ZNS">ZNS</option>
+                <option value="Revelations">Revelations</option>
+                <option value="IX">IX</option>
+                <option value="VOD">VOD</option>
+                <option value="BOTD">BOTD</option>
+                <option value="DOTN">DOTN</option>
+                <option value="Ancient Evil">Ancient Evil</option>
+                <option value="Alpha Omega">Alpha Omega</option>
+                <option value="Classified">Classified</option>
+                <option value="Tag Der Toten">Tag Der Toten</option>
+                <option value="Moon (BO3)">Moon (BO3)</option>
+
+                </select>
+        
+            <p><label for="gamertag" >GamerTag:</label>
+            <input type="text" name="gamertag" id="gamertag"></p>
+        
+            <p><label for="time" >Time(hr:min:sec):</label>
+            <input type="text" name="time" id="time"></p>
+        
+            <p><label for="round" >Round:</label>
+            <input type="text" name="round" id="round"></p>
+            
+            <label for="platform" >Platform:</label>
+            <select name="platform" id="platform">
+                <option value="PC">PC</option>
+                <option value="Playstation">Playstation</option>
+                <option value="Xbox">Xbox</option>
+            </select>
+            
+
+            <p><input type="reset" value="Reset" id="reset">
+               <button type="button" onclick="submitForm('submit')">Submit Form</button>
+            
+             <p><label>Enter Form Number and refill form to update.</label></p>
+            <input type="text" name="formNumber" id="formNumber" required></p>
+             <p><button type="button" onclick="submitForm('update')">Update Details</button></p>
+            
+            </fieldset>
+		</form>
+            
+            <form id="viewDeleteForm" action="highrounds" method="POST">
+                  <input type="hidden" id="fdAction" name="action">
+
+                  <fieldset>
+                      <h3>Updating, Viewing, and Deleting Forms:</h3>
+                      <br>
+                       <fieldset>
+                           <legend>
+                               <label for="formNumber">Only enter Form Number to view or delete form.</label>
+                      </legend>
+                    <input type="text" id="viewDeleteFormNumber" name="formNumber" required>
+                    
+                    <p><button type="button" onclick="changeForm('view')">View Details</button></p>
+                    <button type="button" onclick="changeForm('delete')">Delete Details</button>
+                  </fieldset>
+                  </fieldset>
+              </form>
+
+		<br>
+		<br>
+		<br>
+                
+                <script>
+        function submitForm(action) {
+            document.getElementById('action').value = action;
+            document.getElementById('highroundForm').submit();
+        }
+
+        function changeForm(action) {
+            document.getElementById('fdAction').value = action;
+            document.getElementById('viewDeleteForm').submit();
+        }
+        
+        </script>
+
+			<div id="copyright">
+				Copyright © 2023 Zombies Incorporated Fan Site. All Right Reserved. We do not represent Call Of Duty game or Activision
+				</div>
+</div>
+</body>
+</html>

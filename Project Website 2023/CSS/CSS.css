@@ -1,0 +1,200 @@
+#container{
+    width: 80%;
+    margin: auto;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex: display;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 200%;
+    border: 5px solid transparent;
+
+}
+
+
+#heading{
+    text-align: center;
+}
+
+.topnav {
+    background-color: #FF4242;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #B82C2C;
+    color: white;
+  }
+
+  #myTopnav{
+    padding-left: 6.5em;
+  }
+
+  a{
+    padding: 3em;
+  }
+
+   
+  h1, h3{
+          font-family: 'Irish Grover', cursive;
+         color: #FF4242;
+        }
+    body{
+        background-color: black;
+        color: white;
+        font-family: 'Itim', cursive;
+        text-align: center;
+    }
+    #header-image{
+        width: 1000px;
+        height: 500px;
+        padding: 2em;
+    }
+    .about{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    #copyright{
+        background-color: #FF4242;
+        display: block;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    /*Speedruns/HighRounds CSS */
+    td, th{
+      border:1px solid #CCC;
+    }
+    th{
+      background-color: white;
+      color: black;
+      padding: 1em;
+    }
+    td{
+      padding: 10px;
+      
+      background-color: #FF4242;
+    }
+    td{
+      color: black;
+    }
+    table{
+      padding-left: 6.5em;
+      padding-right: 6.5em;
+      padding-top: 3em;
+      width: 100%;
+    }
+    li{
+      display: none;
+    }
+    
+    /*Gallery CSS */
+    #mainImg{
+      max-width: 850px;
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+
+    /*Contact CSS */
+    @media(max-width: 1920px){
+    #contact-flex{
+      display: flex;
+      padding-left: 6.5em;
+      padding-top: 3em;
+    }
+  }
+    #contactImg{
+      width: 655px;
+      height: 1000px;
+      padding-top: 0.7em;
+      padding-left: 1em;
+      padding-bottom: 3em;
+    }
+    form{
+      font-size: large;
+      color: #FF4242;
+      width: 45%;
+      padding-bottom: 3em;
+      text-align: left;
+    }
+    .error{
+      color: blue;
+      font-weight: bolder;
+  }
+
+  /*Useful-Links CSS*/
+  #linksImg{
+    width: 1000px;
+    height: 500px;
+    padding: 2em;
+  }
+  #linksText a {
+    text-decoration: none;
+  }
+  .lightningVoid{
+    color: purple;
+  }
+  .fire{
+    color: red;
+  }
+  .ice{
+    color: lightskyblue;
+  }
+  .lightning{
+    color: violet;
+  }
+  .wolf{
+    color: cyan;
+  }
+  .wind{
+    color: yellow;
+  }
+  #linkColor a{
+    color: lime;
+  }
+
+  /*Upcoming CSS*/
+  #tranzit{
+    width: 1000px;
+    height: 500px;
+    padding: 2em;
+  }
+
+  #dieRise{
+    width: 1000px;
+    height: 500px;
+    padding: 2em;
+  }
+
+  #buried{
+    width: 1000px;
+    height: 500px;
+    padding: 2em;
+  }
+  .upcomingText{
+    padding-left: 14.8em;
+    padding-right: 14.8em;
+  }
+

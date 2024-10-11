@@ -1,0 +1,126 @@
+@media(max-width: 480px){
+    body {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1em;
+      }
+      
+      
+      #container {
+        max-width: 100%;
+        margin: auto;
+      }
+      
+      #header-image {
+        width: 400px;
+        height: 225px;
+        padding: 2em;
+      }
+      
+      .topnav {
+        font-size: 1em;
+        padding: 0 1em;
+      }
+      
+      .about {
+        font-size: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+      }
+      
+      #logo {
+        position: relative;
+        top: auto;
+        left: auto;
+        flex: none;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-width: 2px;
+      }
+        #heading {
+          text-align: center;
+          margin-top: 1rem;
+        }
+        .topnav a {
+          display: block;
+          padding: 0.5em;
+        }
+    
+    /*High Rounds/Speedruns CSS*/
+    ul{
+        padding-right: 2.2em;
+        padding-top: 1em;
+    }
+    li, dt{
+        display: block;
+        border: solid #FF4242 1px;
+    }
+    dt{
+        padding: 0.5em;
+    }
+    table{
+        display: none;
+    }
+    li h2{
+        color: lime;
+    }
+    
+    /*Gallery*/
+    #mainImg{
+        max-width: 400px;
+      }
+  
+    /*Contact*/
+    #contactImg{
+    display: none;
+    }
+    form{
+       position: relative;
+       right: 140px;
+    }
+
+    /*Useful-Links*/
+    #linksImg{
+    width: 400px;
+    height: 225px;
+
+    }
+
+    /*Upcoming*/
+    #tranzit{
+    width: 400px;
+    height: 225px;
+    }
+
+    #dieRise{
+    width: 400px;
+    height: 225px;
+    }
+
+    #buried{
+    width: 400px;
+    height: 225px;
+    }
+
+    .upcomingText{
+        padding-left: 3em;
+        padding-right: 3em;
+      }
+
+    
+    
+    
+    
+
+}
