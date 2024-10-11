@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head> 
+	<meta charset="utf-8">
+    <link href="CSS/CSS.css" rel="stylesheet">
+	<title> Sign Up Letter</title>
+    
+
+	</head>
+	<body>
+    <div id="container">
+    <form action="http://litstudentprojects.net/A1signUpNewsletter.php" method="post">  
+    
+    <fieldset><legend>Enter Your Details</legend>
+        <p><label for="fname">First Name: </label><input type="text" name="fname" id="fname"></p>
+        <p><label for="sname">Surname: </label><input type="text" name="sname" id="sname"></p>
+        <p><label for="email">Email: </label><input type="email" name="email1" id="email"></p>
+        <p><label for="address1">Address1: </label><input type="text" name="address1" id="address1"></p>
+        <p><label for="address2">Address2: </label><input type="text" name="address2" id="address2"></p>
+        <p><label for="dob">Date Of Birth: </label><input type="date" name="dob" id="dob"></p>
+        <p><label for="typeCooking">What type of cooking are you interested in? </label></p>
+    <br>        
+    <br>
+    <p><input type="checkbox" name="typeCooking" value="family" checked><label>Family Meals</label></p><br>
+	<p><input type="checkbox" name="typeCooking" value="fine"><label>Fine Dining</label></p><br>
+	<p><input type="checkbox" name="typeCooking" value="gluten"><label>Gluten Free</label></p><br>
+	<p><input type="checkbox" name="typeCooking" value="budget"><label>Cooking on a Budget</label></p><br>
+	<p><input type="checkbox" name="typeCooking" value="kids"><label>Cooking with Kids</label></p><br>
+        
+<input type="hidden" name="recipe" value="BakedMozzarellaBites"><input type="hidden" name="recipe" value="BakedMozzarellaBites">
+
+    <input type="submit" id="submit"> &nbsp &nbsp &nbsp
+    <input type="reset" id="reset">
+        <br>
+    <a href="index.html" target="blank"><img src="images/button_cancel.png" id="cancelbutton"></a>
+    </fieldset>
+    </form>
+   
+        </div>
+	</body>
+</html>

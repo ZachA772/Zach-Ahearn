@@ -1,0 +1,55 @@
+ul.navigationbar{
+    background-color: #99CC35;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 180%
+   }
+/*This is an example of a Class Selector*/
+li.seperatenav {
+  display: inline;
+  padding: 50px;
+/*This is an example of margins*/
+  margin: 20px;
+  font: 8px;
+   }
+/*This is an example of a Compound Selector*/
+.seperatenav a{
+    text-decoration: none;
+    color:white;
+}
+/*This is an example of a Tag Selector*/
+main{
+    display:flex;
+}
+/*This is an example of a Group Selector*/
+#floattable1, #floattable2{
+        flex:20%;
+    background-color: #99CC35;
+        /*This is an example of borders*/
+    border: 2px solid #739928;
+    /*This is an example of padding*/
+    padding:20px;
+}
+/*This is an example of an ID Selector*/
+#foodimg{
+    padding-right: 200px;
+}
+footer{
+    text-align: center;
+}
+#cancelbutton{
+    padding: 10px;
+}
+label {
+			float: left;
+			width: 150px;
+		}
+fieldset{
+    width:30%;
+    background-color: #E1ECF9;
+    color:#133863;
+}
+#container{
+    max-width: 80%;
+    margin: auto;
+}
